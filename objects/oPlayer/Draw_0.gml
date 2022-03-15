@@ -12,6 +12,17 @@ switch(global.Armor)
 	sDeath = sPlayerDeath;
 	break;
 	
+	case("Mushroom"):
+	sIdle = sMushroomPlayerIdle;
+	sRun = sMushroomPlayerRun;
+	sJumpD = sMushroomPlayerJumpD;
+	sJumpM = sMushroomPlayerJumpM;
+	sJumpU = sMushroomPlayerJumpU;
+	sSlide = sMushroomPlayerSlide;
+	sParry = sPlayerParry;
+	sDeath = sPlayerDeath;
+	break;
+	
 	case("Dark"):
 	sIdle = sDarkPlayerIdle;
 	sRun = sDarkPlayerRun;

@@ -18,6 +18,9 @@ function inventoryToSprite(inventoryIndex)
 		case 20:
 			InvSprite = spr_inv_Dark;
 		break;
+		case 21:
+			InvSprite = spr_inv_Mushroom;
+		break;
 	}
 		
 	return InvSprite;
@@ -49,6 +52,9 @@ function inventoryToString(inventoryIndex)
 		case 20:
 			Armor = "Dark";
 		break;
+		case 21:
+			Armor = "Mushroom";
+		break;
 
 	}
 	
@@ -57,35 +63,9 @@ function inventoryToString(inventoryIndex)
 
 function inventoryToStats(inventoryIndex)
 {
-	Stats = [1,2];	///[Health, Mana] ARMOR
+	Stats = [0,0];	///[Health, Mana] ARMOR
 					//[MaxCombo,Rooted]
-		switch(inventoryIndex)
-		{
-			case 1:
-				Stats = [3,true];
-			break;
-			case 2:
-				Stats = [5, true];
-			break;
-			case 4:
-				Stats = [0,0];
-			break;
-			case 5:
-				Stats = [2,-5];
-			break;
-			case 6:
-				Stats = [-2,5];
-			break;
-			case 7:
-				Stats = [2,true];
-			break;
-			case 10:
-				Stats = [1,false];
-			break;
-			case 20:
-				Stats = [0,0];
-			break;
-		}
+
 	return Stats;
 }
 
@@ -159,6 +139,10 @@ function inventoryToDescription(inventoryIndex)
 			case 20:
 				Desc = "Dark armor\n\n" +
 					"The armor born from the darkness of your heart!!!.\n\nORIGINAL CHARACTER PLS DONT STEAL!!!";
+			break;
+			case 21:
+				Desc = "Mushroom\n\n" +
+					"Padoooooooo!!!!.\n\nYou can tell I am running out of ideas";
 			break;
 				
 		}

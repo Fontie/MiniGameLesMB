@@ -35,6 +35,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Collect_Armor","path":"objects/obj_Collect_Armor/obj_Collect_Armor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":832.0,"y":496.0,"resourceVersion":"1.0","name":"inst_3AC90D4D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Collect_Mage","path":"objects/obj_Collect_Mage/obj_Collect_Mage.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":864.0,"y":496.0,"resourceVersion":"1.0","name":"inst_4B8C030C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_Collect_Dark","path":"objects/obj_Collect_Dark/obj_Collect_Dark.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":896.0,"y":512.0,"resourceVersion":"1.0","name":"inst_18F50CC7","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Collect_Mushroom","path":"objects/obj_Collect_Mushroom/obj_Collect_Mushroom.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":912.0,"y":496.0,"resourceVersion":"1.0","name":"inst_6BA1FE93","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":1,"userdefinedDepth":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Interaction_layer","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_deathZone","path":"objects/obj_deathZone/obj_deathZone.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":18.0453339,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-12176.0,"y":2096.0,"resourceVersion":"1.0","name":"inst_6A24E1FE_1_1_2_5","tags":[],"resourceType":"GMRInstance",},
@@ -165,6 +166,7 @@
     {"name":"inst_3AC90D4D","path":"rooms/Rm_TestRoom/Rm_TestRoom.yy",},
     {"name":"inst_4B8C030C","path":"rooms/Rm_TestRoom/Rm_TestRoom.yy",},
     {"name":"inst_18F50CC7","path":"rooms/Rm_TestRoom/Rm_TestRoom.yy",},
+    {"name":"inst_6BA1FE93","path":"rooms/Rm_TestRoom/Rm_TestRoom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
