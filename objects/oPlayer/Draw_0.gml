@@ -12,6 +12,63 @@ switch(global.Armor)
 	sDeath = sPlayerDeath;
 	break;
 	
+	case("Tie"):
+	sIdle = sTiePlayerIdle;
+	sRun = sTiePlayerRun;
+	sJumpD = sTiePlayerJumpD;
+	sJumpM = sTiePlayerJumpM;
+	sJumpU = sTiePlayerJumpU;
+	sSlide = sTiePlayerSlide;
+	sParry = sPlayerParry;
+	sDeath = sPlayerDeath;
+	break;
+	
+	case("Anime"):
+	sIdle = sAnimePlayerIdle;
+	sRun = sAnimePlayerRun;
+	sJumpD = sAnimePlayerJumpD;
+	sJumpM = sAnimePlayerJumpM;
+	sJumpU = sAnimePlayerJumpU;
+	sSlide = sAnimePlayerSlide;
+	sParry = sPlayerParry;
+	sDeath = sPlayerDeath;
+	break;
+	
+	case("Boo"):
+	sIdle = sBooPlayerIdle;
+	sRun = sBooPlayerRun;
+	sJumpD = sBooPlayerJumpD;
+	sJumpM = sBooPlayerJumpM;
+	sJumpU = sBooPlayerJumpU;
+	sSlide = sBooPlayerSlide;
+	sParry = sPlayerParry;
+	sDeath = sPlayerDeath;
+	break;
+	
+	
+	case("Mario"):
+	sIdle = sMarioPlayerIdle;
+	sRun = sMarioPlayerRun;
+	sJumpD = sMarioPlayerJumpD;
+	sJumpM = sMarioPlayerJumpM;
+	sJumpU = sMarioPlayerJumpU;
+	sSlide = sMarioPlayerSlide;
+	sParry = sPlayerParry;
+	sDeath = sPlayerDeath;
+	break;
+	
+	
+	case("Hat"):
+	sIdle = sHatPlayerIdle;
+	sRun = sHatPlayerRun;
+	sJumpD = sHatPlayerJumpD;
+	sJumpM = sHatPlayerJumpM;
+	sJumpU = sHatPlayerJumpU;
+	sSlide = sHatPlayerSlide;
+	sParry = sPlayerParry;
+	sDeath = sPlayerDeath;
+	break;
+	
 	case("Mushroom"):
 	sIdle = sMushroomPlayerIdle;
 	sRun = sMushroomPlayerRun;

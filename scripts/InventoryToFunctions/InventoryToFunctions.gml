@@ -21,6 +21,21 @@ function inventoryToSprite(inventoryIndex)
 		case 21:
 			InvSprite = spr_inv_Mushroom;
 		break;
+		case 22:
+			InvSprite = spr_inv_Hat;
+		break;
+		case 23:
+			InvSprite = spr_inv_Mario;
+		break;
+		case 24:
+			InvSprite = spr_inv_Boo;
+		break;
+		case 25:
+			InvSprite = spr_inv_Tie;
+		break;
+		case 26:
+			InvSprite = spr_inv_Anime;
+		break;
 	}
 		
 	return InvSprite;
@@ -54,6 +69,21 @@ function inventoryToString(inventoryIndex)
 		break;
 		case 21:
 			Armor = "Mushroom";
+		break;
+		case 22:
+			Armor = "Hat";
+		break;
+		case 23:
+			Armor = "Mario";
+		break;
+		case 24:
+			Armor = "Boo";
+		break;
+		case 25:
+			Armor = "Tie";
+		break;
+		case 26:
+			Armor = "Anime";
 		break;
 
 	}
@@ -107,18 +137,9 @@ function inventoryToDescription(inventoryIndex)
 				   "A sturdy helmet with room to put your ears into.\n\n[INSERT FLAVOR TEXT]";
 			break;
 			case 6:	   //||||||||||||||||||||||||||||||||||||||||||||||||||||||<-border limit
-				Desc= "Oka mage hat\n\n" +
-					  "A big hat that increases your mana pool.\n\n" +
-					  "There was once a mage who specialized in fungal magic.\n" +
-					  "He believed that it was the key to solve many illnesses.\n" +
-					  "However one day he overstepped and hit himself with his \n" +
-					  "own spell. This caused him to grow muschrooms all over his\n" +
-					  "body. Eventually the shrooms fused together and formed one\n" +
-					  "giant muschroom hat on top of his head.\n\n" +
-					  "People however hailed him as a genius for his breakthroughs.\n" +
-					  "The classic mage hat being an imitation of his muschroom head.\n"+
-					  "Even though the school of Oka abandoned medicine long ago,\n" +
-					  "their hat will forever be a symbol of their roots.";
+				Desc= "Mage hat\n\n" +
+					  "you're a wizard bunny\n\n" +
+					  "Friendship is magic or something idk I quit magic school";
 			break;
 			case 7:	   //||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||<-border limit
 				Desc= "Soul Zweihander\n\n" +
@@ -143,6 +164,27 @@ function inventoryToDescription(inventoryIndex)
 			case 21:
 				Desc = "Mushroom\n\n" +
 					"Padoooooooo!!!!.\n\nYou can tell I am running out of ideas";
+			break;
+			case 22:
+				Desc = "Swag Hat\n\n" +
+					"Oh my god look at that swagger.\n\nGives you the power to materialize"+
+					"\nswag shades out of thin air through the sheer power of your swag.";
+			break;
+			case 23:
+				Desc = "Retro hat\n\n" +
+					"Because I like em pixalated.";
+			break;
+			case 24:
+				Desc = "Ghost Hat\n\n" +
+					"Very spoopy";
+			break;
+			case 25:
+				Desc = "Tie\n\n" +
+					"Always classy";
+			break;
+			case 26:
+				Desc = "Pink Ribbon\n\n" +
+					"KAWAI~~";
 			break;
 				
 		}
