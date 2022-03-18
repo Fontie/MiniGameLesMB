@@ -4,11 +4,11 @@ switch(CurrentText)
 {
 	case(0):
 		
-		MyText[0] = "I do not understand...";
-		MyText[1] = "For what purpose do these fools dig such massive tunnels";
-		MyText[2] = "If you just want a quiet place to lose your mind and rot away,";
-		MyText[3] = "then wouldn't any place do?";
-		MyText[4] = "But I guess...\nMaybe stubbornly clutching to our goals is what made us defects in the first place."
+		MyText[0] = "DUDE HELP";
+		MyText[1] = "I Lost all 10 of my hats!!!";
+		MyText[2] = "Find them all and get them back to me!!!";
+		MyText[3] = "WHAT ARE YOU WAITING FOR";
+		MyText[4] = "STOP READING AND GET A MOVE ON!!!!"
 
 				
 

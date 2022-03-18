@@ -1,3 +1,3 @@
-TargetRoom = Rm_TestRoom;
-TargetX = 200;
-TargetY = 104;
+TargetRoom = Rm_Start;
+TargetX = 777;
+TargetY = 400;

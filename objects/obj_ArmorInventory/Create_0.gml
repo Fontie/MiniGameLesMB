@@ -1,5 +1,5 @@
 /// @description inv
-#macro INVENTORY_SLOTS_ARMOR 40
+#macro INVENTORY_SLOTS_ARMOR 10
 rowLength = 5;
 inventory = array_create(INVENTORY_SLOTS_ARMOR, -1);
 
