@@ -252,7 +252,7 @@ stateFree = function()
 		global.SecondSpellIcon = inventoryToSprite(inventoryHoverSummon.inventory[slotHoverSummon]);
 	}
 		//armor
-	if (mouse_check_button(mb_left)) && (slotHoverArmor != -1) && (inventoryHoverArmor.inventory[slotHoverArmor] != -1)
+	if (mouse_check_button_released(mb_left)) && (slotHoverArmor != -1) && (inventoryHoverArmor.inventory[slotHoverArmor] != -1)
 	{
 		global.Armor = inventoryToString(inventoryHoverArmor.inventory[slotHoverArmor]);
 		Stats = inventoryToStats(inventoryHoverArmor.inventory[slotHoverArmor]);

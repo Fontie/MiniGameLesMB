@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_GoombaHurt3",
-    "path": "sprites/spr_GoombaHurt3/spr_GoombaHurt3.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

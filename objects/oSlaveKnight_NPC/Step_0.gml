@@ -18,16 +18,7 @@ switch(CurrentText)
 		LastPage = 9;
 		ResetPage = 9;
 	break;
-	case(1):
-		
-		MyText[0] = "Please give up, it beats becoming Lost."
-		MyText[1] = "But, I guess. There is something romantic in a fools fight against the impossible.";
-		MyText[2] = "Wouldn't you agree?";				
 
-
-		LastPage = 2;
-		ResetPage = 2;
-	break;
 }
 
 if(place_meeting(x, y, oPlayer))

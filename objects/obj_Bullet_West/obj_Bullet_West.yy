@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_BulletWest",
-    "path": "sprites/spr_BulletWest/spr_BulletWest.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

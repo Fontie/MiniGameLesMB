@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_Watcher_Calm",
-    "path": "sprites/spr_Watcher_Calm/spr_Watcher_Calm.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

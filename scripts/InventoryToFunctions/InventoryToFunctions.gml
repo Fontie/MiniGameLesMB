@@ -130,7 +130,7 @@ function inventoryToDescription(inventoryIndex)
 					"'Desperation breeds creativity'"
 			break;
 			case 4: //||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||<-border limit
-			Desc = "Skin\n\nbase armor\n\n[INSERT FLAVOR TEXT]";
+			Desc = "Skin\n\nbase armor\n\nNot as fancy as a hat";
 			break;
 			case 5: //||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||<-border limit
 			Desc = "Bunny eared helmet\n\n" +

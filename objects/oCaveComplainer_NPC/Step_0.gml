@@ -5,7 +5,7 @@ switch(CurrentText)
 	case(0):
 		
 		MyText[0] = "DUDE HELP";
-		MyText[1] = "I Lost all 10 of my hats!!!";
+		MyText[1] = "I Lost all 9 of my hats!!!";
 		MyText[2] = "Find them all and get them back to me!!!";
 		MyText[3] = "WHAT ARE YOU WAITING FOR";
 		MyText[4] = "STOP READING AND GET A MOVE ON!!!!"

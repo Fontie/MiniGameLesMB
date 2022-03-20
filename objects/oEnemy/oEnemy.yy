@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_Goomba",
-    "path": "sprites/spr_Goomba/spr_Goomba.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
